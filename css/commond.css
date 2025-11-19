@@ -1,0 +1,273 @@
+/* 版心 */
+.wrapper {
+    width: 1240px;
+    margin: 0 auto;
+}
+
+/* 快捷导航 */
+.shortcut {
+    height: 52px;
+    background-color: #333;
+}
+
+.shortcut .wrapper {
+    height: 52px;
+}
+
+
+.shortcut .wrapper ul {
+    float: right;
+}
+
+.shortcut .wrapper li {
+    float: left;
+    line-height: 52px;
+}
+
+.shortcut .wrapper a {
+    padding: 0 16px;
+    border-right: 1px solid #666;
+    font-size: 14px;
+    color: #dcdcdc;
+}
+
+.shortcut .wrapper a span {
+    display: inline-block;
+    margin-right: 8px;
+    width: 11px;
+    height: 16px;
+    background-image: url(../images/精灵图.PNG);
+    background-position: -160px -70px;
+    vertical-align: middle;
+}
+
+/* 头部 */
+.header {
+    margin: 30px auto;
+    height: 70px;
+}
+
+.logo {
+    float: left;
+    width: 200px;
+    height: 70px;
+}
+
+.logo h1 {
+    width: 207px;
+    height: 70px;
+}
+
+.logo h1 a {
+    display: block;
+    width: 200px;
+    height: 70px;
+    background-image: url(../images/LOGO.PNG);
+    background-size: contain;
+    font-size: 0;
+}
+
+.nav {
+    float: left;
+    margin-left: 40px;
+    height: 70px;
+}
+
+.nav li {
+    float: left;
+    margin-right: 48px;
+    line-height: 70px;
+}
+
+.nav li a {
+    padding-bottom: 7px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+
+.nav li a:hover {
+    color: #27ba9b;
+    border-bottom: 1px solid #27ba9b;
+}
+
+.search {
+    position: relative;
+    float: left;
+    margin-top: 24px;
+    margin-left: 34px;
+    width: 172px;
+    height: 30px;
+    border-bottom: 2px solid #e7e7e7;
+}
+
+.search input {
+    padding-left: 30px;
+    width: 172px;
+    height: 28px;
+}
+
+.search input::placeholder {
+    font-size: 14px;
+    color: #ccc;
+}
+
+.search span {
+    position: absolute;
+    left: 2px;
+    top: 0;
+    /* display: inline-block; */
+    width: 18px;
+    height: 20px;
+    background-image: url(../images/精灵图.PNG);
+    background-position: -79px -68px;
+}
+
+.car {
+    position: relative;
+    float: left;
+    margin-top: 28px;
+    margin-left: 15px;
+    width: 23px;
+    height: 23px;
+    background-image: url(../images/精灵图.PNG);
+    background-position: -119px -69px;
+}
+
+.car span {
+
+    position: absolute;
+    right: -13px;
+    top: -6px;
+    width: 20px;
+    height: 15px;
+    background-color: #e26237;
+    border-radius: 8px;
+
+    font-size: 13px;
+    color: #fff;
+    text-align: center;
+    line-height: 15px;
+}
+
+/* 服务优势区域样式 */
+
+.service {
+    padding: 24px 0;
+    border-bottom: 1px solid #f2f2f2;
+}
+
+.service-list {
+    display: flex;
+    justify-content: space-around;
+}
+
+.service-item {
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    color: #333;
+}
+
+.service-icon {
+    width: 50px;
+    height: 50px;
+    background: url('../images/精灵图.PNG') no-repeat;
+    /* background-color: pink; */
+    margin-right: 8px;
+}
+
+.icon-price {
+    background-position: -186px -55px;
+}
+
+.icon-logistics {
+    background-position: -186px -55px;
+}
+
+.icon-quality {
+    background-position: -186px -55px;
+}
+
+.icon-aftersale {
+    background-position: -186px -55px;
+}
+
+/* 页脚样式 */
+.footer-nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 32px 0;
+    border-bottom: 1px solid #f2f2f2;
+}
+
+.footer-column {
+    width: 14%;
+}
+
+.footer-column h3 {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 16px;
+    font-weight: 600;
+}
+
+.footer-column ul li {
+    margin-bottom: 12px;
+}
+
+.footer-column ul li a {
+    color: #666;
+    font-size: 14px;
+    transition: color 0.2s;
+}
+
+.footer-column ul li a:hover {
+    color: #27ba9b;
+}
+
+.chat-icon {
+    color: #27ba9b;
+    margin-left: 4px;
+}
+
+.footer-qrcode {
+    display: flex;
+    gap: 20px;
+}
+
+.qrcode-item {
+    text-align: center;
+}
+
+.qrcode-item img {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 6px;
+}
+
+.qrcode-item p {
+    font-size: 14px;
+    color: #666;
+}
+
+.footer-bottom {
+    padding: 20px 0;
+    text-align: center;
+    color: #999;
+    font-size: 14px;
+}
+
+.footer-links a {
+    color: #999;
+    margin: 0 5px;
+    transition: color 0.2s;
+}
+
+.footer-links a:hover {
+    color: #27ba9b;
+}
+
+.copyright {
+    margin-top: 8px;
+}
